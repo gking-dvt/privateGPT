@@ -33,7 +33,7 @@
 	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "postCreateCommand-cpu.sh"
+	"postCreateCommand": "./.devcontainer/postCreateCommand-cpu.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
