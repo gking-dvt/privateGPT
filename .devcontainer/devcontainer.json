@@ -20,7 +20,8 @@
 		}
 	},
 	 "runArgs": [
-		 "--name privateGPT-cpu",
+		 "--name",
+		 "privateGPT-cpu",
 	//   "--gpus",
 	//   "all"
 	 ],
