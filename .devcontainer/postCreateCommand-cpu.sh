@@ -9,6 +9,7 @@ pipx install poetry
 PATH="/root/.local/bin:$PATH"
 PATH=".venv/bin/:$PATH"
 
+export POETRY_VIRTUALENVS_IN_PROJECT=true
 poetry install --with local
 poetry install --with ui
 
