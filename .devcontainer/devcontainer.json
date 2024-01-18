@@ -20,9 +20,9 @@
 		}
 	},
 	 "runArgs": [
-		 "--name=privategpt-cpu",
-	//   "--gpus",
-	//   "all"
+		"--name=privategpt-nvidia",
+	  	"--gpus",
+	  	"all"
 	 ],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
