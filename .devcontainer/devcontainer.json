@@ -7,7 +7,8 @@
 
 	"build": {
         // Path is relative to the devcontainer.json file.
-        "dockerfile": "Dockerfile.nvidia"
+        "dockerfile": "Dockerfile.nvidia" // Disable if no GPU is present
+		// "dockerfile": "Dockerfile.cpu" // Enable if no GPU is present
 	},
 	"customizations": {
 		"vscode": {
@@ -21,8 +22,8 @@
 	},
 	 "runArgs": [
 		"--name=privategpt-nvidia",
-	  	"--gpus",
-	  	"all"
+	  	"--gpus", // Disable if no GPU is present
+	  	"all" // Disable if no GPU is present
 	 ],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
